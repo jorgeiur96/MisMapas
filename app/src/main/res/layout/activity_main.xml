@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:orientation="horizontal">
+
+        <ImageButton
+            android:layout_marginLeft="30dp"
+            android:layout_width="131dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="53dp"
+            android:src="@drawable/image18"
+            android:onClick="Zona1"
+            android:tooltipText="@string/zona1" />
+
+        <ImageButton
+            android:layout_marginLeft="30dp"
+            android:layout_width="131dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="53dp"
+            android:src="@drawable/image19"
+            android:onClick="Zona2"
+            android:tooltipText="@string/zona2" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:orientation="horizontal">
+
+        <ImageButton
+            android:layout_marginLeft="30dp"
+            android:layout_width="131dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="53dp"
+            android:src="@drawable/image20"
+            android:onClick="Zona3"
+            android:tooltipText="@string/zona3" />
+
+        <ImageButton
+            android:layout_marginLeft="30dp"
+            android:layout_width="131dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="53dp"
+            android:src="@drawable/image21"
+            android:onClick="Zona4"
+            android:tooltipText="@string/zona4" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
+
+
+</RelativeLayout>

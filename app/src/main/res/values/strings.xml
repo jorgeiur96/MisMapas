@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MisMapas</string>
+    <string name="zona1"> centro  comercial Buena Vista </string>
+    <string name="zona2"> Ronda  del  sinu  </string>
+    <string name="zona3"> centro  comercial alamedas </string>
+    <string name="zona4"> centro  comercial Nuestro </string>
+    <string name="title_activity_maps">Map</string>
+</resources>
